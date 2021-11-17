@@ -41,27 +41,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoxCreate.cs" />
-    <Compile Include="BoxDetail.cs" />
-    <Compile Include="BoxEdit.cs" />
-    <Compile Include="BoxListItem.cs" />
-    <Compile Include="DamageClaimCreate.cs" />
-    <Compile Include="DamageClaimDetail.cs" />
-    <Compile Include="DamageClaimEdit.cs" />
-    <Compile Include="DamageClaimListItem.cs" />
-    <Compile Include="InventoryItemCreate.cs" />
-    <Compile Include="InventoryItemDetail.cs" />
-    <Compile Include="InventoryItemEdit.cs" />
-    <Compile Include="InventoryItemListItem.cs" />
-    <Compile Include="MoveCreate.cs" />
-    <Compile Include="MoveDetail.cs" />
-    <Compile Include="MoveEdit.cs" />
-    <Compile Include="MoveListItem.cs" />
+    <Compile Include="Box\BoxCreate.cs" />
+    <Compile Include="Box\BoxDetail.cs" />
+    <Compile Include="Box\BoxEdit.cs" />
+    <Compile Include="Box\BoxListItem.cs" />
+    <Compile Include="DamageClaim\DamageClaimCreate.cs" />
+    <Compile Include="DamageClaim\DamageClaimDetail.cs" />
+    <Compile Include="DamageClaim\DamageClaimEdit.cs" />
+    <Compile Include="DamageClaim\DamageClaimListItem.cs" />
+    <Compile Include="InventoryItem\InventoryItemCreate.cs" />
+    <Compile Include="InventoryItem\InventoryItemDetail.cs" />
+    <Compile Include="InventoryItem\InventoryItemEdit.cs" />
+    <Compile Include="InventoryItem\InventoryItemListItem.cs" />
+    <Compile Include="MoveDetails\MoveCreate.cs" />
+    <Compile Include="MoveDetails\MoveDetail.cs" />
+    <Compile Include="MoveDetails\MoveEdit.cs" />
+    <Compile Include="MoveDetails\MoveListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoomCreate.cs" />
-    <Compile Include="RoomDetail.cs" />
-    <Compile Include="RoomEdit.cs" />
-    <Compile Include="RoomListItem.cs" />
+    <Compile Include="Room\RoomCreate.cs" />
+    <Compile Include="Room\RoomDetail.cs" />
+    <Compile Include="Room\RoomEdit.cs" />
+    <Compile Include="Room\RoomListItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

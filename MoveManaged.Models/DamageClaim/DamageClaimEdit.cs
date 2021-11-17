@@ -8,6 +8,7 @@ namespace MoveManaged.Models
 {
     public class DamageClaimEdit
     {
+        public int ClaimId { get; set; }
         public string Description { get; set; }
         public bool ClaimSubmitted { get; set; }
         public string ClaimNotes { get; set; }

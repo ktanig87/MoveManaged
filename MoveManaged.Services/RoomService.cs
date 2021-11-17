@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoveManaged.Models
+namespace MoveManaged.Services
 {
-    public class InventoryItemEdit
+    public class RoomService
     {
     }
 }
