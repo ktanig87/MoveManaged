@@ -14,7 +14,7 @@ namespace MoveManaged.Data
         public int RoomId { get; set; }
         public string RoomName { get; set; }
 
-        public virtual MoveDetails MoveDetails { get; set; }
+        public virtual MoveInfo MoveDetails { get; set; }
         [ForeignKey(nameof(MoveDetails))]
         public int MoveId { get; set; }
     }

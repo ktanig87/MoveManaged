@@ -8,5 +8,9 @@ namespace MoveManaged.Models
 {
     public class InventoryItemListItem
     {
+        public int InventoryId { get; set; }
+        public string Name { get; set; }
+        public int BoxId { get; set; }
+        public int RoomId { get; set; }
     }
 }

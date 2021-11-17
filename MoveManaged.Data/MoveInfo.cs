@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace MoveManaged.Data
 {
-    public class MoveDetails
+    public class MoveInfo
     {
         [Key]
         public int Id { get; set; }
+        public Guid OwnerId { get; set; }
         public string MoverName { get; set; }
         [DataType(DataType.PhoneNumber)]
         public int DriverPhone { get; set; }

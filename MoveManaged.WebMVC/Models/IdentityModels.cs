@@ -25,11 +25,11 @@ namespace MoveManaged.WebMVC.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        DbSet<MoveDetails> MoveDetails { get; set; }
-        DbSet<Box> Boxes { get; set; }
-        DbSet<Room> Rooms { get; set; }
-        DbSet<InventoryItem> InventoryItems { get; set; }
-        DbSet<DamageClaim> DamageClaims { get; set; }
+        public DbSet<MoveInfo> Moves { get; set; }
+        public DbSet<Box> Boxes { get; set; }
+        public DbSet<Room> Rooms { get; set; }
+        public DbSet<InventoryItem> InventoryItems { get; set; }
+        public DbSet<DamageClaim> DamageClaims { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
