@@ -1,6 +1,6 @@
 ﻿using MoveManaged.Data;
 using MoveManaged.Models;
-using MoveManaged.WebMVC.Models;
+using MoveManaged.WebMVC.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;

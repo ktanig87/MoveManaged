@@ -53,10 +53,10 @@
     <Compile Include="InventoryItem\InventoryItemDetail.cs" />
     <Compile Include="InventoryItem\InventoryItemEdit.cs" />
     <Compile Include="InventoryItem\InventoryItemListItem.cs" />
-    <Compile Include="MoveDetails\MoveCreate.cs" />
-    <Compile Include="MoveDetails\MoveDetail.cs" />
-    <Compile Include="MoveDetails\MoveEdit.cs" />
-    <Compile Include="MoveDetails\MoveListItem.cs" />
+    <Compile Include="MoveInfo\MoveCreate.cs" />
+    <Compile Include="MoveInfo\MoveDetail.cs" />
+    <Compile Include="MoveInfo\MoveEdit.cs" />
+    <Compile Include="MoveInfo\MoveListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Room\RoomCreate.cs" />
     <Compile Include="Room\RoomDetail.cs" />
