@@ -1,6 +1,6 @@
 ﻿using MoveManaged.Data;
 using MoveManaged.Models;
-using MoveManaged.WebMVC.Models;
+using MoveManaged.WebMVC.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace MoveManaged.Services
 {
-    public class MoveDetailService
+    public class MoveInfoService
     {
         private readonly Guid _userId;
-        public MoveDetailService(Guid userId)
+        public MoveInfoService(Guid userId)
         {
             _userId = userId;
         }

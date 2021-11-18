@@ -168,13 +168,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BoxController.cs" />
+    <Compile Include="Controllers\DamageClaimController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InventoryItemController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MoveInfoController.cs" />
+    <Compile Include="Controllers\RoomController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -238,6 +242,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Box\" />
+    <Folder Include="Views\DamageClaim\" />
+    <Folder Include="Views\InventoryItem\" />
+    <Folder Include="Views\MoveInfo\" />
+    <Folder Include="Views\Room\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -256,6 +265,14 @@
     <ProjectReference Include="..\MoveManaged.Data\MoveManaged.Data.csproj">
       <Project>{B5FCD9B7-E68E-4FEE-A2A3-AA062AEEC76F}</Project>
       <Name>MoveManaged.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoveManaged.Models\MoveManaged.Models.csproj">
+      <Project>{59691463-1FBB-4F4B-A4BA-102FE34AF67B}</Project>
+      <Name>MoveManaged.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoveManaged.Services\MoveManaged.Services.csproj">
+      <Project>{77A7A465-DBDC-47CF-B402-74458249E0EB}</Project>
+      <Name>MoveManaged.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

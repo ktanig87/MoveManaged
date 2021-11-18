@@ -9,6 +9,8 @@ namespace MoveManaged.Models
     public class RoomEdit
     {
         public string RoomName { get; set; }
-   
+        public int RoomId { get; set; }
+        public int MoveId { get; set; }
+
     }
 }

@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Box.cs" />
     <Compile Include="DamageClaim.cs" />
+    <Compile Include="IdentityModels.cs" />
     <Compile Include="InventoryItem.cs" />
     <Compile Include="MoveInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
