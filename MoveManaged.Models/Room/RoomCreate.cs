@@ -9,6 +9,7 @@ namespace MoveManaged.Models
     public class RoomCreate
     {
         public string RoomName { get; set; }
+        public int MoveId { get; set; }
 
     }
 }
