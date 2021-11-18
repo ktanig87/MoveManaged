@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using MoveManaged.WebMVC.Data;
 using MoveManaged.WebMVC.Models;
 
 namespace MoveManaged.WebMVC.Controllers
